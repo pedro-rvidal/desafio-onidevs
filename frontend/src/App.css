@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(./img/fundo.jpg);
+  color: whitesmoke;
+  flex-direction: column;
+}
+
+.main-header{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.create-form label{
+  color: whitesmoke !important;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px !important;
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.buttonStart {
+  color: #000000 !important;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px !important;
+  background: #3CB371 !important;
+  margin-top: 10px !important;
+  padding: 8px 16px;
+}
+
+.buttonCreate {
+  color: #000000 !important;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px !important;
+  background: #3CB371 !important;
+  margin-top: 10px !important;
+}
+
+.buttonUpdate {
+  color: #000000 !important;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px !important;
+  background: #00BFFF !important;
+  cursor: pointer;
+}
+
+.buttonDelete {
+  color: #000000 !important;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px !important;
+  background: #CD5C5C !important;
+  cursor: pointer;
+}
+
+.boxSelect{
+  font-family: 'Montserrat', sans-serif;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.buttonCancel {
+  color: #000000 !important;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px !important;
+  background: #df3939 !important;
+  margin-top: 10px !important;
+}
+
+.button-group {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.button-spacing {
+  margin-right: 10px;
+}
