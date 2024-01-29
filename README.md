@@ -18,7 +18,7 @@ E agora é possível executar o servidor e inserir dados na API com o comando:
 ```
 python manage.py runserver
 ```
-OBS: O servidor inicial apenas com o ip local é necessário inserir /backend_api/artist/ ao final do URL.
+OBS: O servidor inicial apenas com o ip local é necessário inserir /backend_api/artist/ ao final do URL. (http://127.0.0.1:8000/backend_api/artist)
 
 
 Agora com o servidor e a API rodando é necessário iniciar o frontend para que seja feito a criação de artistas, vizualização e edição, em outro CMD, entre na pasta frontend
@@ -31,3 +31,7 @@ npm start
 ```
 
 Após isso o projeto estará funcionado e sendo possivel a gestão de artistas e também a alimentação da API com os dados inseridos na página criada na pasta `frontend`.
+
+## Informações adicionais
+
+Para vizualização das telas do projetos é possível [CLICANDO AQUI](https://github.com/pedro-rvidal/desafio-onidevs/blob/main/SCREENS.md).
